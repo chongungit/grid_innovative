@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+.element-invisible {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px)
+}
+html {
+    background-image: url('/images/Wynton-Marsalis.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    font-family: proxima-nova-condensed, Futura, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+body {
+    width: 90vw;
+    margin: 3vh 5vw;
+}
+h1, h2 {
+    font-size: 1.4rem;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    text-align: right;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+li {
+    padding: 10px;
+    border-radius: 4px;
+    background: #D4759F;
+    opacity: 0.8;
+    line-height: 1.2;
+}
+h3 {
+    margin: 0;
+    font-size: 0.7em;
+    color: #ffd274;
+}
+h5 {
+    margin: 0;
+    font-size: 0.6em;
+    color: #ffd274;
+}
+p {
+    margin: 0;
+    font-size:0.6em;
+    color: white;
+}
+@supports (display: grid) {
+
+}
